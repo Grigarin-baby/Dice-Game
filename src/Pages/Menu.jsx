@@ -5,12 +5,12 @@
     return (
       <div className="w-full min-h-screen flex justify-center  items-center  bg-white py-10">
         <div className="w-9/12  bg-white my-10   flex flex-col md:flex-row md:justify-center items-center">
-          <div className="w-[200px]  ">
+          <div className="w-[300px] md:w-[400px] ">
             <img className="w-full " src={dice} alt="Dice" />
           </div>
           <div className=" ">
             <div className=" w-full  pt-5 flex items-center flex-col">
-              <h1 className=" text-black  font-bold mb-2 text-5xl">DICE GAME</h1>
+              <h1 className=" text-black  font-bold mb-2 text-5xl md:text-8xl">DICE GAME</h1>
               <Link to={"/Home"}>
               <button className="text-center  bg-black text-white border-2 border-black hover:bg-white hover:text-black  transition duration-300" >Play Now </button>
               </Link>
